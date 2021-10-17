@@ -1,0 +1,49 @@
+.wrap-manager-post-top {
+  background-color: white;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-manager-post-add-btn button {
+  background-color: #77b5d9;
+  color: white;
+  padding: 4px 12px;
+  border: none;
+}
+
+.wrap-manager-post-bottom {
+  padding: 12px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.content-post-manager-btn {
+  white-space: nowrap;
+}
+
+.content-post-manager-btn button {
+  padding: 4px 12px;
+  border: none;
+}
+
+.edit-manager-post-btn {
+  background-color: rgba(29, 29, 248, 0.25);
+  color: blue;
+  margin-right: 12px;
+}
+
+.del-manager-post-btn {
+  background-color: rgba(255, 0, 0, 0.25);
+  color: red;
+  margin-right: 12px;
+}
+
+.browse-manager-post-btn {
+  background-color: rgba(255, 145, 0, 0.25);
+  color: orange;
+  margin-right: 12px;
+}

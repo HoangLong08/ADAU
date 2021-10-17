@@ -1,0 +1,136 @@
+.wrap-manager-footer-top {
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap-manager-footer-bottom {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.content-manager-footer {
+  width: calc(100% / 3);
+}
+
+.content-manager-footer .form-group-manager-footer:first-child {
+  margin-bottom: 24px;
+}
+
+.form-group-manager-footer {
+  margin-bottom: 12px;
+}
+
+.form-group-manager-footer input {
+  padding: 4px 8px;
+  width: calc(100% - 96px);
+
+  display: inline-block;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+
+  margin-bottom: 12px;
+}
+
+.form-group-manager-footer input:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.form-group-manager-footer button {
+  border: none;
+  width: 32px;
+  height: 32px;
+  margin: 0 6px;
+}
+
+.btn-edit-manager-footer {
+  background-color: rgba(0, 0, 255, 0.15);
+  color: blue;
+}
+
+.btn-del-manager-footer {
+  background-color: rgba(255, 0, 0, 0.15);
+  color: red;
+}
+
+.text-link-manager-footer {
+  padding: 0 12px;
+  width: 100%;
+}
+
+.text-link-manager-footer label {
+  text-align: left;
+  display: inherit;
+}
+
+.text-link-manager-footer input {
+  width: 100%;
+}
+
+.update-logo-footer {
+  text-align: center;
+  width: 100%;
+}
+
+.update-logo-footer img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.btn-upload-image-logo {
+  margin: 24px 0;
+}
+
+.btn-upload-image-logo label {
+  background-color: #b8b8b8;
+}
+
+.update-logo-footer-btn {
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  background-color: #77b7d9;
+  margin-right: 12px;
+}
+
+.update-logo-footer-btn:hover {
+  background-color: #399dd3;
+}
+
+.update-link-footer-btn {
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  background-color: #77b7d9;
+  margin-right: 12px;
+}
+
+.update-link-footer-btn:hover {
+  background-color: #399dd3;
+}
+
+.content-update-footer-logo-btn {
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  background-color: #77b7d9;
+  margin-right: 12px;
+}
+
+.content-update-footer-logo-btn:hover {
+  background-color: #399dd3;
+}

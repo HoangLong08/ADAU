@@ -1,0 +1,106 @@
+/* .content-menu-faculty {
+  height: 1500px;
+} */
+
+.content-menu-faculty div {
+  margin: 12px 0;
+}
+
+.content-menu-faculty-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-update-menu-faculty {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-update-menu-faculty button {
+  background-color: #2daaaa;
+  border: none;
+  color: white;
+  padding: 4px 16px;
+}
+
+.content-menu-faculty button {
+  border: none;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  margin: 0 6px;
+}
+
+.input-menu {
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+}
+
+.input-menu:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.input-title {
+  width: 200px;
+}
+
+.input-link {
+  width: 400px;
+}
+
+.menu-main .menu-sub {
+  margin-left: 32px;
+}
+
+.add-li-menu {
+  background-color: rgba(18, 134, 18, 0.185);
+  color: green;
+}
+
+.show-li-menu {
+  background-color: rgba(67, 112, 248, 0.185);
+  color: blue;
+}
+
+.edit-li-menu {
+  background-color: rgba(194, 194, 2, 0.185);
+  color: #f7b84b;
+}
+
+.del-li-menu {
+  background-color: rgba(255, 0, 0, 0.185);
+  color: red;
+}
+
+.content-menu-faculty div > input {
+  margin-left: 12px;
+}
+
+/*  modal  */
+
+.modal-menu-post {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.modal-menu-post-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-post-faculty {
+  white-space: nowrap;
+}
+
+.text-note-menu-faculty {
+  color: red;
+}

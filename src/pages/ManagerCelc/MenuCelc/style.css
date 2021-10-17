@@ -1,0 +1,9 @@
+.content-menu-celc-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-note-menu-celc {
+  color: red;
+}

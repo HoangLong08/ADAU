@@ -1,0 +1,45 @@
+.wrap-edit-special-top {
+  background-color: white;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.wrap-edit-special-bottom {
+  background-color: white;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.form-group-special input {
+  padding: 8px 16px;
+  width: 100%;
+
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+
+  margin-bottom: 12px;
+}
+
+.form-group-special input:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.content-update-special-btn {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.content-update-special-btn button {
+  background-color: #2571a3;
+  border: none;
+  padding: 4px 12px;
+  color: white;
+}

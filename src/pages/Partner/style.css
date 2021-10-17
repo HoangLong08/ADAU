@@ -1,0 +1,86 @@
+.wrap-manager-partner-top {
+  background-color: white;
+  border: 4px;
+  padding: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.wrap-manager-partner-bottom {
+  background-color: white;
+  border: 4px;
+  padding: 12px;
+}
+
+.input-part-manager {
+  padding: 8px 16px;
+
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+}
+
+.input-partner-name {
+  width: 200px;
+}
+
+.input-partner-file {
+  width: 200px;
+}
+
+.content-action-manager-partner {
+  white-space: nowrap;
+}
+
+.content-action-manager-partner button {
+  padding: 8px 12px;
+  color: white;
+  border: none;
+}
+
+.btn-del-partner {
+  background-color: rgba(255, 0, 0, 0.25);
+  color: red !important;
+}
+
+.content-manager-partner-add button {
+  background-color: #77b7d9;
+  padding: 8px 12px;
+  color: white;
+  border: none;
+}
+
+.form-group-partner-add input {
+  padding: 8px 16px;
+  width: 100%;
+  min-width: 500px;
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+  margin-bottom: 12px;
+}
+
+.form-group-partner-add input:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.modal-del-add-partner-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #c9c9c9 solid 1px;
+  margin-bottom: 12px;
+}

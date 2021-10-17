@@ -1,0 +1,74 @@
+.wrap-manger-account {
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.modal-manager-account {
+  width: 500px;
+}
+
+.modal-manager-account-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-action-manager-account {
+  white-space: nowrap;
+}
+
+.content-action-manager-account button {
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.content-action-manager-account button:last-child {
+  margin-right: 0;
+}
+
+.btn-update-manager-account {
+  background-color: rgba(0, 195, 255, 0.25);
+  color: blue;
+}
+
+.btn-block-manager-account {
+  background-color: rgba(255, 230, 0, 0.25);
+  color: #7e7e00;
+}
+
+.btn-delete-manager-account {
+  background-color: rgba(255, 0, 0, 0.25);
+  color: red;
+}
+
+.role-account-manager-group label {
+  margin: 12px 0;
+  display: inline-block;
+}
+
+.role-account-manager-group select {
+  padding: 12px 16px;
+  width: 100%;
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+}
+
+.role-account-manager-group select:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.list-manager-account-group label:first-child {
+  margin: 12px 0;
+  display: inline-block;
+}

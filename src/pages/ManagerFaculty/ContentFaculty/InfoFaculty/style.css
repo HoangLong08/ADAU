@@ -1,0 +1,112 @@
+.content-info-faculty-btn button {
+  padding: 4px 12px;
+  border: none;
+}
+
+.btn-edit-info-faculty {
+  background-color: rgba(0, 255, 0, 0.25);
+  color: green;
+  margin-right: 12px;
+}
+
+.btn-update-info-faculty {
+  background-color: rgba(29, 29, 248, 0.25);
+  color: blue;
+  margin-right: 12px;
+}
+
+.btn-del-info-faculty {
+  background-color: rgba(255, 0, 0, 0.25);
+  color: red;
+}
+
+.input-info-faculty {
+  padding: 8px 16px;
+
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+}
+
+.input-info-tile {
+  width: 300px;
+}
+
+.div-info-des {
+  width: 180px;
+}
+
+.input-info-des {
+  width: 100px;
+}
+
+.input-info-faculty:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.modal-del-info-faculty-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-add-faculty {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px 102px;
+}
+
+.content-add-faculty button {
+  background-color: #77b5d9;
+  padding: 8px 12px;
+  color: white;
+  border: none;
+}
+
+.content-add-faculty button:hover {
+  background-color: #2f82b3;
+}
+
+.modal-add-info-faculty {
+  width: 400px;
+}
+
+.modal-add-info-faculty-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group-info {
+  margin-bottom: 12px;
+}
+
+.form-group-info label {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.form-group-info input {
+  padding: 8px 16px;
+  width: 100%;
+
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+}
+
+.form-group-info input:focus {
+  outline: none;
+  border-color: #4370f8;
+}

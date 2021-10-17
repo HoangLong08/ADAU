@@ -1,0 +1,93 @@
+.wrap-intro-faculty-frame {
+  min-height: 100vh;
+}
+
+.wrap-intro-faculty-frame .rdw-dropdown-wrapper {
+  z-index: 1 !important;
+}
+
+.title-intro-faculty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-detail-post button {
+  background-color: #4ba4c7;
+  padding: 4px 16px;
+  border: none;
+  color: white;
+}
+
+.content-intro-faculty-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.form-group-intro {
+  width: 45%;
+}
+
+.form-group-intro input {
+  padding: 8px 16px;
+  width: 100%;
+
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+}
+
+.form-group-intro input:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.form-group-intro-des textarea {
+  resize: none;
+  width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+  /* overflow: hidden; */
+  /* height: auto; */
+
+  height: 160px;
+}
+
+.form-group-intro-des textarea:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.content-update-intro-faculty {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.content-update-intro-faculty button {
+  background-color: #4ba4c7;
+  padding: 8px 24px;
+  color: white;
+  border: none;
+}
+
+.wrap-edit-intro-faculty img {
+  width: auto;
+  height: auto;
+}
+
+.wrap-edit-intro-faculty .rdw-editor-wrapper {
+  border: 1px solid #cdd9ed;
+  min-height: 400px;
+}
+
+.wrap-edit-intro-faculty .rdw-editor-toolbar {
+  border-bottom: 1px solid #cdd9ed;
+}

@@ -1,0 +1,84 @@
+.wrap-edit-manager-post-top {
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.wrap-edit-manager-post-bottom {
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.form-group-middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group-edit-post-manager {
+  margin-bottom: 12px;
+}
+
+.form-group-edit-post-manager textarea {
+  resize: none;
+  width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+  /* overflow: hidden; */
+  /* height: auto; */
+
+  height: 160px;
+}
+
+.form-group-edit-post-manager textarea:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.form-group-edit-post-manager input {
+  padding: 8px 16px;
+  width: 100%;
+  min-width: 500px;
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+}
+
+.form-group-edit-post-manager input:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.image-manager-post {
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  margin: 12px 0;
+}
+
+.image-manager-post img {
+  width: 500px;
+  height: auto;
+}
+
+.content-update-manager-post-btn {
+  margin: 12px 0;
+  text-align: center;
+}
+
+.btn-update-manager-post {
+  border: none;
+  padding: 4px 12px;
+  background-color: #77b7d9;
+  color: white;
+}
+
+.btn-update-manager-post:hover {
+  background-color: #368fbe;
+}

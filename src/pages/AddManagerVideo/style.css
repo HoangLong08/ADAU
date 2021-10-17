@@ -1,0 +1,15 @@
+.content-add-video-btn {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.btn-add-video {
+  background-color: #77b7d9;
+  border: none;
+  padding: 4px 16px;
+  color: white;
+}
+
+.btn-add-video:hover {
+  background-color: #53a2cc;
+}

@@ -1,0 +1,244 @@
+.wrap-page-personal {
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.left-wrap-info,
+.right-wrap-info {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.right-wrap-info label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.right-wrap-info .form-groups select {
+  padding: 12px 16px;
+  width: 100%px;
+
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+}
+
+.right-wrap-info .form-groups select:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.btn-logout {
+  padding: 12px;
+  background-color: #77b5d9;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-logout:hover {
+  background-color: #2f82b3;
+}
+
+.info-image {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.info-image img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.upload-btn-wrapper {
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn .fas {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.info-name,
+.info-button {
+  text-align: center;
+}
+
+.info-name {
+  margin: 12px 0;
+  font-size: 20px;
+}
+
+.content-button-info {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.content-button-info .button-info {
+  width: 80%;
+  padding: 12px;
+  background-color: #77b5d9;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.content-button-info .button-info:hover {
+  background-color: #2f82b3;
+}
+
+.wrap-page-personal-bottom {
+  margin-top: 12px;
+}
+
+.wrap-page-personal-bottom .ant-col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.content-history-login {
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px;
+  margin-right: 12px;
+}
+
+.content-history-login h3 {
+  margin-bottom: 12px !important;
+  font-weight: bold;
+}
+
+.content-list-manager {
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.content-list-manager h3 {
+  margin-bottom: 12px !important;
+  font-weight: bold;
+}
+
+.active-on {
+  padding: 4px 8px;
+  text-align: center;
+  color: #389e0d;
+  background: #f6ffed;
+  border-color: #b7eb8f;
+}
+
+.active-off {
+  padding: 4px 8px;
+  text-align: center;
+  color: #d4380d;
+  background: #fff2e8;
+  border-color: #ffbb96;
+}
+
+.back-btn {
+  padding: 4px 16px;
+  background-color: #77b5d9;
+  border: none;
+  color: white;
+}
+
+.back-btn:hover {
+  background-color: #2f82b3;
+}
+
+.wrap-change-password {
+  width: 60%;
+  margin: 12px auto;
+}
+
+.form-change-password {
+  margin-bottom: 12px;
+}
+
+.form-change-password label {
+  width: 160px;
+  display: inline-block;
+}
+
+.form-change-password input {
+  width: calc(100% - 160px);
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+}
+
+.form-change-password input:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.form-change-password .error {
+  margin-left: 160px;
+  color: red;
+  transition: 0.5;
+}
+
+.form-password {
+  position: relative;
+}
+
+.eye-password-icon {
+  position: absolute;
+  top: 35%;
+  right: 12px;
+  cursor: pointer;
+}
+
+.content-change-password {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.content-change-password .btn-change-pass {
+  background-color: #2f82b3;
+  color: white;
+  padding: 4px 12px;
+  border: none;
+}

@@ -1,0 +1,45 @@
+.wrap-info-celc-top {
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.wrap-info-celc-bottom {
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.form-group-info-celc input {
+  padding: 8px 16px;
+  width: 100%;
+
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+
+  margin-bottom: 12px;
+}
+
+.form-group-info-celc input:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.content-info-celc-btn {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.content-info-celc-btn button {
+  background-color: #77c5d7;
+  color: white;
+  border: none;
+  padding: 4px 12px;
+}

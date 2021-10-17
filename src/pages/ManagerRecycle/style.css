@@ -1,0 +1,46 @@
+.wrap-manager-recycle-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.wrap-manager-recycle-bottom {
+  padding: 12px;
+  background-color: white;
+}
+
+.content-manager-recycle-btn-del-all {
+  background-color: #77b7d9;
+  border: none;
+  padding: 4px 32px;
+  color: white;
+  margin-top: 12px;
+}
+
+.content-recycle-btn {
+  white-space: nowrap;
+}
+
+.content-recycle-btn button {
+  padding: 4px 8px;
+  border: none;
+}
+
+.content-manager-recycle-btn-del-all:hover {
+  background-color: #50a7d6;
+}
+
+.btn-recycle-restore {
+  background-color: rgba(0, 0, 255, 0.45);
+  color: blue;
+  margin-right: 12px;
+}
+
+.btn-recycle-del {
+  background-color: rgba(255, 0, 0, 0.45);
+  color: red;
+}

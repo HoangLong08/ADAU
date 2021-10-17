@@ -1,0 +1,10 @@
+.content-manager-video-add-btn button {
+  background-color: #77b7d9;
+  border: none;
+  color: white;
+  padding: 4px 20px;
+}
+
+.content-manager-video-add-btn button:hover {
+  background-color: #4898c4;
+}

@@ -1,0 +1,15 @@
+.content-edit-manager-video-btn {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.btn-edit-manager-video {
+  background-color: #77b7d9;
+  padding: 4px 20px;
+  color: white;
+  border: none;
+}
+
+.btn-edit-manager-video:hover {
+  background-color: #4fa2ce;
+}

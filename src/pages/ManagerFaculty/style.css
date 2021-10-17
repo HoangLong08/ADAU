@@ -1,0 +1,67 @@
+.wrap-manager-faculty-top {
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-change-name-btn button {
+  background-color: #29bdbd;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 24px;
+}
+
+.content-change-name-btn button:hover {
+  background-color: #3ba0db;
+}
+
+.wrap-manager-faculty-content .ant-tabs-nav {
+  margin: 0 !important;
+}
+
+.wrap-manager-faculty-content {
+  margin-top: 12px;
+}
+
+.content-manager-faculty {
+  background-color: white;
+  padding: 12px;
+}
+
+.content-change-name-faculty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-change-name-faculty input {
+  padding: 2px 16px;
+  width: 100%;
+
+  display: block;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #cdd9ed;
+  transition: border 0.3s ease;
+}
+
+.content-change-name-faculty input:focus {
+  outline: none;
+  border-color: #4370f8;
+}
+
+.content-change-name-faculty button {
+  background-color: #57a9d8;
+  color: white;
+  padding: 4px 8px;
+  border: none;
+  margin-left: 12px;
+  white-space: nowrap;
+}

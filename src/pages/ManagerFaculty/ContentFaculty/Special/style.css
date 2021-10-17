@@ -1,0 +1,35 @@
+.wrap-special-faculty-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap-special-faculty-top button {
+  background-color: #77b5d9;
+  color: white;
+  border: none;
+  padding: 4px 12px;
+}
+
+.wrap-special-faculty-top button:hover {
+  background-color: #247db1;
+}
+
+.content-btn-special {
+  white-space: nowrap;
+}
+
+.edit-special-btn {
+  background-color: rgba(0, 255, 0, 0.25);
+  color: green;
+  margin-right: 12px;
+  padding: 4px 12px;
+  border: none;
+}
+
+.delete-special-btn {
+  background-color: rgba(255, 0, 0, 0.25);
+  color: red;
+  padding: 4px 12px;
+  border: none;
+}

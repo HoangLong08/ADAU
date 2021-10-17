@@ -1,0 +1,15 @@
+.content-add-post-manager {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.btn-add-post-manager {
+  background-color: #77b7d9;
+  border: none;
+  color: white;
+  padding: 4px 20px;
+}
+
+.btn-add-post-manager:hover {
+  background-color: #4b9ac5;
+}
